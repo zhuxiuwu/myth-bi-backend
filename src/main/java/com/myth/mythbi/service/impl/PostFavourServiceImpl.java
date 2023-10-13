@@ -13,12 +13,11 @@ import com.myth.mythbi.model.entity.PostFavour;
 import com.myth.mythbi.model.entity.User;
 import com.myth.mythbi.service.PostFavourService;
 import com.myth.mythbi.service.PostService;
-
-import javax.annotation.Resource;
-
 import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import javax.annotation.Resource;
 
 /**
  * 帖子收藏服务实现

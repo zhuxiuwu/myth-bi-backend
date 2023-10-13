@@ -15,15 +15,14 @@ import com.myth.mythbi.model.vo.PostVO;
 import com.myth.mythbi.service.PostFavourService;
 import com.myth.mythbi.service.PostService;
 import com.myth.mythbi.service.UserService;
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * 帖子收藏接口

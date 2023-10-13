@@ -8,15 +8,14 @@ import com.myth.mythbi.model.dto.postthumb.PostThumbAddRequest;
 import com.myth.mythbi.model.entity.User;
 import com.myth.mythbi.service.PostThumbService;
 import com.myth.mythbi.service.UserService;
-
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * 帖子点赞接口

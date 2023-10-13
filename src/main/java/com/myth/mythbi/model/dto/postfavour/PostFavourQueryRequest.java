@@ -2,11 +2,10 @@ package com.myth.mythbi.model.dto.postfavour;
 
 import com.myth.mythbi.common.PageRequest;
 import com.myth.mythbi.model.dto.post.PostQueryRequest;
-
-import java.io.Serializable;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.io.Serializable;
 
 /**
  * 帖子收藏查询请求

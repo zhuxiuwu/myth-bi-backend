@@ -4,15 +4,14 @@ import com.myth.mythbi.esdao.PostEsDao;
 import com.myth.mythbi.mapper.PostMapper;
 import com.myth.mythbi.model.dto.post.PostEsDTO;
 import com.myth.mythbi.model.entity.Post;
-
-import java.util.Date;
-import java.util.List;
-import java.util.stream.Collectors;
-import javax.annotation.Resource;
-
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.scheduling.annotation.Scheduled;
+
+import javax.annotation.Resource;
+import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 增量同步帖子到 es

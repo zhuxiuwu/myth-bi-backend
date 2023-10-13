@@ -4,14 +4,13 @@ import com.myth.mythbi.esdao.PostEsDao;
 import com.myth.mythbi.model.dto.post.PostEsDTO;
 import com.myth.mythbi.model.entity.Post;
 import com.myth.mythbi.service.PostService;
-
-import java.util.List;
-import java.util.stream.Collectors;
-import javax.annotation.Resource;
-
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.boot.CommandLineRunner;
+
+import javax.annotation.Resource;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 全量同步帖子到 es

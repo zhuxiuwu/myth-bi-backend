@@ -10,12 +10,11 @@ import com.myth.mythbi.model.entity.PostThumb;
 import com.myth.mythbi.model.entity.User;
 import com.myth.mythbi.service.PostService;
 import com.myth.mythbi.service.PostThumbService;
-
-import javax.annotation.Resource;
-
 import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import javax.annotation.Resource;
 
 /**
  * 帖子点赞服务实现

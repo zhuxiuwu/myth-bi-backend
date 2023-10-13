@@ -1,10 +1,9 @@
 package com.myth.mythbi.esdao;
 
 import com.myth.mythbi.model.dto.post.PostEsDTO;
+import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 import java.util.List;
-
-import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**
  * 帖子 ES 操作

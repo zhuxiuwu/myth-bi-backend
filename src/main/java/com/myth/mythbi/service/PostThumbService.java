@@ -1,7 +1,7 @@
 package com.myth.mythbi.service;
 
-import com.myth.mythbi.model.entity.PostThumb;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.myth.mythbi.model.entity.PostThumb;
 import com.myth.mythbi.model.entity.User;
 
 /**

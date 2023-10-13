@@ -3,10 +3,10 @@ package com.myth.mythbi.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.myth.mythbi.model.entity.Post;
-import com.myth.mythbi.model.entity.User;
 
 import javax.annotation.Resource;
 
+import com.myth.mythbi.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

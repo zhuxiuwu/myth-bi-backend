@@ -1,12 +1,11 @@
 package com.myth.mythbi.model.dto.post;
 
 import com.myth.mythbi.common.PageRequest;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 import java.util.List;
-
-import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 /**
  * 查询请求
